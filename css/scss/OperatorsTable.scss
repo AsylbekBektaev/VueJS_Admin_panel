@@ -1,0 +1,208 @@
+.OperatorsTableBlock{
+  width: 100%;
+  height:947px;
+  background: rgba(156, 183, 235, 0.1);
+  position: relative;
+  .OperatorText{
+    position: absolute;
+    top:40px;
+    left:64px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #9CB7EB;
+  }
+  .AddOperator{
+    width:236px;
+    height:50px;
+    position: absolute;
+    top:105px;
+    left:64px;
+    border-radius:30px;
+    border:solid 1px black;
+    font: 18px/22px normal;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    outline: none;
+    img{
+      margin: 0 5px 0 0;
+    }
+  }
+  .Operator_radioButtons{
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top:176px;
+    left: 66px;
+    .textRadio{
+      width:auto;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .Buttons{
+      width: auto;
+      margin:0 0 0 20px;
+      display:flex;
+      flex-direction:row-reverse;
+      .radio input { display: none; /* Прячем исходный переключатель */ }
+      .radio span {
+        position: relative; /* Относительное позиционирование */
+        display: inline-block; /* Строчно-блочный элемент */
+        width: 20px; height: 20px; /* Размеры */
+        background: white; /* Серый цвет фона */
+        border-radius: 50%; /* Круглый переключатель */
+        margin:-5px 0 0 5px;
+        border:solid 1px black;
+      }
+      .radio input:checked + span {
+        background: white; /* Красный цвет фона */
+      }
+      /* Добавляем белую точку по центру */
+      .radio input:checked + span::before {
+        content: '';
+        position: absolute;
+        left: 5px; top: 5px;
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        background: #9CB7EB;
+        border: 1px solid #1B0E3A;
+        box-sizing: border-box;
+      }
+      label{
+        margin:0 0 0 20px;
+        display:flex;
+        flex-direction:row-reverse;
+      }
+    }
+  }
+
+  .Operator_pag_1{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    right: 63px;
+    top:240px;
+    img{
+      width: 16px;
+      height: 12px;
+    }
+    .page_numbers{
+      margin: -9px 5px 0px 5px;
+      width:30px;
+      height:30px;
+      border: 1px solid black;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: white;
+      font-weight: 600;
+    }
+    .active{
+      color: #9CB7EB;
+      border: 2px solid #9CB7EB;
+    }
+    .L{
+      margin: 0 5px 0 0;
+    }
+    .R{
+      margin: 0 0 0 5px;
+    }
+  }
+  .Operator_pag_2{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    right: 63px;
+    top:894px;
+    img{
+      width: 16px;
+      height: 12px;
+    }
+    .page_numbers{
+      margin: -9px 5px 0px 5px;
+      width:30px;
+      height:30px;
+      border: 1px solid black;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: white;
+      font-weight: 600;
+    }
+    .active{
+      color: #9CB7EB;
+      border: 2px solid #9CB7EB;
+    }
+    .L{
+      margin: 0 5px 0 0;
+    }
+    .R{
+      margin: 0 0 0 5px;
+    }
+  }
+  .OperatorTable{
+    width: 1331px;
+    position: absolute;
+    top: 290px;
+    left: 55px;
+    text-align: center;
+    //border: solid 1px #9CB7EB;
+    //border-radius: 20px;
+    font: 18px/22px normal;
+    background-color: white;
+
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #9CB7EB;
+    thead{
+      tr{
+        #border-R{
+          border-right: hidden;
+        }
+        th{
+          margin: 0;
+          padding: 0;
+          border:solid 1px #9CB7EB;
+          height: 83px;
+        }
+      }
+    }
+    tbody{
+      tr{
+        td{
+          padding:15px 0;
+          border-top: solid 1px #9CB7EB;
+          justify-content: center;
+          align-items: center;
+          .status{
+            margin: auto;
+            padding: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border:solid 1px black;
+            background-color: white;
+            .Status_color{
+              display: none;
+              width: 10px;
+              height:10px;
+              border-radius: 50%;
+              border:solid 1px black;
+              background: #9CB7EB;
+              margin: 4px auto;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1600 @@
+@charset "UTF-8";
+#app {
+  max-width: 1440px;
+  margin: 0 auto; }
+  #app header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    border: 1px solid #9CB7EB;
+    box-sizing: border-box; }
+    #app header ul {
+      width: 80%;
+      height: 80px;
+      list-style: none;
+      display: flex;
+      justify-content: left;
+      margin: auto;
+      float: left;
+      position: relative; }
+      #app header ul .logo {
+        width: 53px;
+        height: 43px;
+        float: left;
+        margin: 20px 70px 0 0; }
+      #app header ul #Otchet .items {
+        display: none;
+        list-style: none;
+        position: absolute;
+        top: 60px;
+        left: 545px;
+        width: 196px;
+        height: auto;
+        background-color: white;
+        border: 1px solid #9CB7EB;
+        border-radius: 10px;
+        z-index: 1000;
+        flex-direction: column;
+        padding-left: 26px; }
+        #app header ul #Otchet .items li {
+          margin: 15px 0 15px 0; }
+      #app header ul #Otchet:hover > .items {
+        display: block; }
+      #app header ul li {
+        margin: 35px 15px 0 15px;
+        font: 14px/17px normal; }
+    #app header .Person_and_Agent {
+      width: 20%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      font: 14px/17px normal; }
+      #app header .Person_and_Agent .person {
+        margin: 22px 0 0 0;
+        position: absolute;
+        right: 45%;
+        top: 0; }
+        #app header .Person_and_Agent .person .person_text {
+          color: #9CB7EB; }
+      #app header .Person_and_Agent .agent {
+        position: absolute;
+        right: 45%;
+        top: 47%;
+        margin: 9px 0 0 0; }
+        #app header .Person_and_Agent .agent .agent_text {
+          color: #9CB7EB; }
+      #app header .Person_and_Agent .exit {
+        position: absolute;
+        right: 25%;
+        top: 36%; }
+  #app .Search_one {
+    width: 100%;
+    height: 945px;
+    display: flex; }
+    #app .Search_one .block_left {
+      width: 27%;
+      background-color: rgba(156, 183, 235, 0.1); }
+      #app .Search_one .block_left .blockSearchSetting {
+        width: 90%;
+        height: 883px;
+        margin: 50px auto auto auto;
+        background-color: white;
+        border: 1px solid #9CB7EB;
+        display: flex;
+        flex-direction: column;
+        position: relative; }
+        #app .Search_one .block_left .blockSearchSetting .SearchPanel {
+          width: 122px;
+          height: 26px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-top: solid 1px #9CB7EB;
+          border-left: solid 1px #9CB7EB;
+          border-right: solid 1px #9CB7EB;
+          background-color: white;
+          position: absolute;
+          top: -35px;
+          left: 16px;
+          font: 600 14px/17px normal;
+          text-align: center;
+          padding-top: 8px; }
+        #app .Search_one .block_left .blockSearchSetting .AddPanel {
+          width: 102px;
+          height: 23px;
+          border: solid 1px #9CB7EB;
+          background-color: white;
+          position: absolute;
+          top: -30px;
+          left: 143px;
+          font: 600 14px/17px normal;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          border-top-right-radius: 20px;
+          border-left: hidden; }
+          #app .Search_one .block_left .blockSearchSetting .AddPanel::before {
+            border-radius: 50%;
+            left: -22px;
+            top: -5px;
+            content: "";
+            display: inline-block;
+            width: 26px;
+            height: 31px;
+            border-right: solid 1px #9CB7EB;
+            border-top: solid 1px transparent;
+            border-bottom: solid 1px transparent;
+            position: absolute; }
+          #app .Search_one .block_left .blockSearchSetting .AddPanel img {
+            width: 10px;
+            height: 10px;
+            margin: 5px 5px 0 0; }
+        #app .Search_one .block_left .blockSearchSetting label {
+          position: absolute;
+          left: 21px;
+          width: 237px;
+          height: 27px;
+          font: 18px/22px normal; }
+        #app .Search_one .block_left .blockSearchSetting .Period {
+          top: 18px;
+          color: #9CB7EB; }
+        #app .Search_one .block_left .blockSearchSetting .Period_text {
+          width: 50%;
+          top: 235px;
+          font: 14px/17px normal; }
+        #app .Search_one .block_left .blockSearchSetting .Search {
+          top: 289px;
+          color: #9CB7EB; }
+        #app .Search_one .block_left .blockSearchSetting .Settings {
+          top: 485px;
+          color: #9CB7EB; }
+        #app .Search_one .block_left .blockSearchSetting .Detaling {
+          top: 610px;
+          color: #9CB7EB; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_1 {
+          display: flex;
+          position: relative;
+          top: 90px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_1 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_1 .Period_day {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_2 {
+          display: flex;
+          position: relative;
+          top: 132px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_2 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_2 .Period_day_c {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_3 {
+          display: flex;
+          position: relative;
+          top: 177px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_3 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_3 .Period_day_po {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_4 {
+          display: flex;
+          position: relative;
+          top: 335px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_4 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_4 .Search_agent {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_5 {
+          display: flex;
+          position: relative;
+          top: 377px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_5 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_5 .Search_metka_agent {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_6 {
+          display: flex;
+          position: relative;
+          top: 518px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_6 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_6 .Type_chect {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .flex_block_7 {
+          display: flex;
+          position: relative;
+          top: 568px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_7 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_one .block_left .blockSearchSetting .flex_block_7 .Number_chect {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_one .block_left .blockSearchSetting .checkBox_1 {
+          display: flex;
+          position: relative;
+          top: 430px;
+          width: 100%;
+          font: 14px/17px normal;
+          /* стили для метки */
+          /* формируем внешний вид чекбокса в псевдоэлементе before */
+          /* вариации внешнего вида в зав-ти от статуса checkbox */
+          /* checked */
+          /* disabled */ }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 .check_agent {
+            margin: 7px 16px 0 37px;
+            display: none; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 label {
+            color: #000;
+            cursor: default;
+            font-weight: normal;
+            line-height: 30px;
+            padding: 10px 0;
+            vertical-align: middle;
+            font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 label:before {
+            content: "";
+            display: inline-block;
+            font: 20px/20px Arial;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0;
+            width: 22px;
+            height: 22px;
+            background: #FFF;
+            border: 1px solid #9CB7EB;
+            border-image: initial;
+            vertical-align: middle;
+            color: #9CB7EB;
+            border-radius: 5px; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 input:checked + label:before {
+            content: "\2713"; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 input:disabled + label:before {
+            background: #eee;
+            color: #aaa; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_1 label {
+            left: 37px; }
+        #app .Search_one .block_left .blockSearchSetting .checkBox_2 {
+          display: flex;
+          position: relative;
+          top: 645px;
+          width: 100%;
+          font: 14px/17px normal;
+          /* стили для метки */
+          /* формируем внешний вид чекбокса в псевдоэлементе before */
+          /* вариации внешнего вида в зав-ти от статуса checkbox */
+          /* checked */
+          /* disabled */ }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 .check_chet {
+            margin: 7px 16px 0 37px;
+            display: none; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 label {
+            color: #000;
+            cursor: default;
+            font-weight: normal;
+            line-height: 30px;
+            padding: 10px 0;
+            vertical-align: middle;
+            font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 label:before {
+            content: "";
+            display: inline-block;
+            font: 20px/20px Arial;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0;
+            width: 22px;
+            height: 22px;
+            background: #FFF;
+            border: 1px solid #9CB7EB;
+            border-image: initial;
+            vertical-align: middle;
+            color: #9CB7EB;
+            border-radius: 5px; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 input:checked + label:before {
+            content: "\2713"; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 input:disabled + label:before {
+            background: #eee;
+            color: #aaa; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_2 label {
+            left: 37px; }
+        #app .Search_one .block_left .blockSearchSetting .checkBox_3 {
+          display: flex;
+          position: relative;
+          top: 690px;
+          width: 100%;
+          font: 14px/17px normal;
+          /* стили для метки */
+          /* формируем внешний вид чекбокса в псевдоэлементе before */
+          /* вариации внешнего вида в зав-ти от статуса checkbox */
+          /* checked */
+          /* disabled */ }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 .check_chet_2 {
+            margin: 7px 16px 0 37px;
+            display: none; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 label {
+            color: #000;
+            cursor: default;
+            font-weight: normal;
+            line-height: 30px;
+            padding: 10px 0;
+            vertical-align: middle;
+            font: 14px/17px normal; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 label:before {
+            content: "";
+            display: inline-block;
+            font: 20px/20px Arial;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0;
+            width: 22px;
+            height: 22px;
+            background: #FFF;
+            border: 1px solid #9CB7EB;
+            border-image: initial;
+            vertical-align: middle;
+            color: #9CB7EB;
+            border-radius: 5px; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 input:checked + label:before {
+            content: "\2713"; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 input:disabled + label:before {
+            background: #eee;
+            color: #aaa; }
+          #app .Search_one .block_left .blockSearchSetting .checkBox_3 label {
+            left: 37px; }
+    #app .Search_one .block_right {
+      width: 73%;
+      background-color: white; }
+      #app .Search_one .block_right table {
+        width: 100%;
+        border-collapse: collapse;
+        font: 12px/20.7px normal; }
+        #app .Search_one .block_right table th {
+          border: 1px solid #9CB7EB;
+          height: 80px;
+          white-space: pre-wrap;
+          padding: 4px; }
+        #app .Search_one .block_right table tr td {
+          text-align: center;
+          padding: 5px; }
+  #app .Search_two {
+    width: 100%;
+    height: 945px;
+    display: flex; }
+    #app .Search_two .block_left_two {
+      width: 27%;
+      background-color: rgba(156, 183, 235, 0.1); }
+      #app .Search_two .block_left_two .blockSearchSetting_two {
+        width: 90%;
+        height: 883px;
+        margin: 50px auto auto auto;
+        background-color: white;
+        border: 1px solid #9CB7EB;
+        display: flex;
+        flex-direction: column;
+        position: relative; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .SearchPanel_2 {
+          width: 122px;
+          height: 26px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-top: solid 1px #9CB7EB;
+          border-left: solid 1px #9CB7EB;
+          border-right: solid 1px #9CB7EB;
+          background-color: white;
+          position: absolute;
+          top: -35px;
+          left: 16px;
+          font: 600 14px/17px normal;
+          text-align: center;
+          padding-top: 8px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .AddPanel_2 {
+          width: 102px;
+          height: 23px;
+          border: solid 1px #9CB7EB;
+          background-color: white;
+          position: absolute;
+          top: -30px;
+          left: 143px;
+          font: 600 14px/17px normal;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          border-top-right-radius: 20px;
+          border-left: hidden; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .AddPanel_2::before {
+            border-radius: 50%;
+            left: -22px;
+            top: -5px;
+            content: "";
+            display: inline-block;
+            width: 26px;
+            height: 31px;
+            border-right: solid 1px #9CB7EB;
+            border-top: solid 1px transparent;
+            border-bottom: solid 1px transparent;
+            position: absolute; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .AddPanel_2 img {
+            width: 10px;
+            height: 10px;
+            margin: 5px 5px 0 0; }
+        #app .Search_two .block_left_two .blockSearchSetting_two label {
+          position: absolute;
+          left: 21px;
+          width: 237px;
+          height: 27px;
+          font: 18px/22px normal; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .Period_two {
+          top: 18px;
+          color: #9CB7EB; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .Period_text_two {
+          width: 50%;
+          top: 235px;
+          font: 14px/17px normal; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .SearchS_two {
+          top: 368px;
+          color: #9CB7EB; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .Settings_two {
+          top: 210px;
+          color: #9CB7EB; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .Detaling_two {
+          top: 610px;
+          color: #9CB7EB; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_1_two {
+          display: flex;
+          position: relative;
+          top: 90px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_1_two span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_1_two .Period_day {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_2_two {
+          display: flex;
+          position: relative;
+          top: 132px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_2_two span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_2_two .Period_day_c {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_3_two {
+          display: flex;
+          position: relative;
+          top: 177px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_3_two span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_3_two .Period_day_po {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Setting {
+          display: flex;
+          position: relative;
+          top: 265px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Setting span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Setting .Max_payment {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting {
+          display: flex;
+          position: relative;
+          top: 315px;
+          width: 100%;
+          font: 14px/17px normal;
+          /* стили для метки */
+          /* формируем внешний вид чекбокса в псевдоэлементе before */
+          /* вариации внешнего вида в зав-ти от статуса checkbox */
+          /* checked */
+          /* disabled */ }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting .check_page {
+            margin: 7px 16px 0 37px;
+            display: none;
+            font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting label {
+            color: #000;
+            cursor: default;
+            font-weight: normal;
+            line-height: 30px;
+            padding: 10px 0;
+            vertical-align: middle;
+            font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting label:before {
+            content: "";
+            display: inline-block;
+            font: 20px/20px Arial;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0;
+            width: 22px;
+            height: 22px;
+            background: #FFF;
+            border: 1px solid #9CB7EB;
+            border-image: initial;
+            vertical-align: middle;
+            color: #9CB7EB;
+            border-radius: 5px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting input:checked + label:before {
+            content: "\2713"; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting input:disabled + label:before {
+            background: #eee;
+            color: #aaa; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .checkBox_two_Setting label {
+            left: 37px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_1 {
+          display: flex;
+          position: relative;
+          top: 420px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_1 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_1 .chect {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_2 {
+          display: flex;
+          position: relative;
+          top: 457px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_2 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_2 .provaider {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_3 {
+          display: flex;
+          position: relative;
+          top: 499px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_3 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_3 .agent {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_4 {
+          display: flex;
+          position: relative;
+          top: 540px;
+          width: 100%;
+          font: 14px/17px normal; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_4 span {
+            position: absolute;
+            right: 255px; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .flex_block_two_Search_4 .terminal {
+            position: absolute;
+            right: 10px;
+            width: 237px;
+            height: 27px;
+            border: 1px solid #9CB7EB;
+            box-sizing: border-box;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px; }
+        #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text {
+          position: absolute;
+          top: 600px;
+          right: 255px;
+          display: flex; }
+          #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum {
+            display: flex;
+            flex-direction: column;
+            margin: 0; }
+            #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 {
+              display: flex;
+              position: relative;
+              top: 0;
+              width: 100%;
+              font: 14px/17px normal;
+              /* стили для метки */
+              /* формируем внешний вид чекбокса в псевдоэлементе before */
+              /* вариации внешнего вида в зав-ти от статуса checkbox */
+              /* checked */
+              /* disabled */ }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 .check_vse {
+                margin: 7px 16px 0 37px;
+                display: none;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 label {
+                color: #000;
+                cursor: default;
+                font-weight: normal;
+                line-height: 30px;
+                padding: 7px 0;
+                vertical-align: middle;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 label:before {
+                content: "";
+                display: inline-block;
+                font: 20px/20px Arial;
+                margin-right: 15px;
+                position: relative;
+                text-align: center;
+                text-indent: 0;
+                width: 22px;
+                height: 22px;
+                background: #FFF;
+                border: 1px solid #9CB7EB;
+                border-image: initial;
+                vertical-align: middle;
+                color: #9CB7EB;
+                border-radius: 5px; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 input:checked + label:before {
+                content: "\2713"; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 input:disabled + label:before {
+                background: #eee;
+                color: #aaa; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_1 label {
+                left: 9px; }
+            #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 {
+              display: flex;
+              position: relative;
+              top: 80px;
+              width: 100%;
+              font: 14px/17px normal;
+              /* стили для метки */
+              /* формируем внешний вид чекбокса в псевдоэлементе before */
+              /* вариации внешнего вида в зав-ти от статуса checkbox */
+              /* checked */
+              /* disabled */ }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 .check_vObr {
+                margin: 7px 16px 0 37px;
+                display: none;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 label {
+                color: #000;
+                cursor: default;
+                font-weight: normal;
+                line-height: 30px;
+                padding: 7px 0;
+                vertical-align: middle;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 label:before {
+                content: "";
+                display: inline-block;
+                font: 20px/20px Arial;
+                margin-right: 15px;
+                position: relative;
+                text-align: center;
+                text-indent: 0;
+                width: 22px;
+                height: 22px;
+                background: #FFF;
+                border: 1px solid #9CB7EB;
+                border-image: initial;
+                vertical-align: middle;
+                color: #9CB7EB;
+                border-radius: 5px; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 input:checked + label:before {
+                content: "\2713"; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 input:disabled + label:before {
+                background: #eee;
+                color: #aaa; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_3 label {
+                left: 9px; }
+            #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 {
+              display: flex;
+              position: relative;
+              top: 120px;
+              width: 100%;
+              font: 14px/17px normal;
+              /* стили для метки */
+              /* формируем внешний вид чекбокса в псевдоэлементе before */
+              /* вариации внешнего вида в зав-ти от статуса checkbox */
+              /* checked */
+              /* disabled */ }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 .check_Neus {
+                margin: 7px 16px 0 37px;
+                display: none;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 label {
+                color: #000;
+                cursor: default;
+                font-weight: normal;
+                line-height: 30px;
+                padding: 7px 0;
+                vertical-align: middle;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 label:before {
+                content: "";
+                display: inline-block;
+                font: 20px/20px Arial;
+                margin-right: 15px;
+                position: relative;
+                text-align: center;
+                text-indent: 0;
+                width: 22px;
+                height: 22px;
+                background: #FFF;
+                border: 1px solid #9CB7EB;
+                border-image: initial;
+                vertical-align: middle;
+                color: #9CB7EB;
+                border-radius: 5px; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 input:checked + label:before {
+                content: "\2713"; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 input:disabled + label:before {
+                background: #eee;
+                color: #aaa; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_4 label {
+                left: 9px; }
+            #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 {
+              display: flex;
+              position: relative;
+              top: 40px;
+              width: 100%;
+              font: 14px/17px normal;
+              /* стили для метки */
+              /* формируем внешний вид чекбокса в псевдоэлементе before */
+              /* вариации внешнего вида в зав-ти от статуса checkbox */
+              /* checked */
+              /* disabled */ }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 .check_uspesh {
+                margin: 7px 16px 0 37px;
+                display: none;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 label {
+                color: #000;
+                cursor: default;
+                font-weight: normal;
+                line-height: 30px;
+                padding: 7px 0;
+                vertical-align: middle;
+                font: 14px/17px normal; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 label:before {
+                content: "";
+                display: inline-block;
+                font: 20px/20px Arial;
+                margin-right: 15px;
+                position: relative;
+                text-align: center;
+                text-indent: 0;
+                width: 22px;
+                height: 22px;
+                background: #FFF;
+                border: 1px solid #9CB7EB;
+                border-image: initial;
+                vertical-align: middle;
+                color: #9CB7EB;
+                border-radius: 5px; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 input:checked + label:before {
+                content: "\2713"; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 input:disabled + label:before {
+                background: #eee;
+                color: #aaa; }
+              #app .Search_two .block_left_two .blockSearchSetting_two .Search_checkBox_text .item_Collum .Search_checkBox_item_2 label {
+                left: 9px; }
+    #app .Search_two .block_right_two {
+      width: 73%;
+      background-color: white; }
+      #app .Search_two .block_right_two table {
+        width: 100%;
+        border-collapse: collapse;
+        font: 12px/20.7px normal; }
+        #app .Search_two .block_right_two table th {
+          border: 1px solid #9CB7EB;
+          height: 80px;
+          white-space: pre-wrap;
+          padding: 4px; }
+        #app .Search_two .block_right_two table tr td {
+          text-align: center;
+          padding: 5px; }
+  #app .TerminalBlock {
+    width: 100%;
+    height: 947px;
+    background: rgba(156, 183, 235, 0.1);
+    position: relative; }
+    #app .TerminalBlock .TerminalText {
+      position: absolute;
+      top: 40px;
+      left: 64px;
+      font-size: 36px;
+      line-height: 44px;
+      color: #9CB7EB; }
+    #app .TerminalBlock .radioButtons {
+      width: auto;
+      height: auto;
+      display: flex;
+      position: absolute;
+      top: 110px;
+      left: 66px; }
+      #app .TerminalBlock .radioButtons .textRadio {
+        width: auto;
+        font-size: 18px;
+        line-height: 22px; }
+      #app .TerminalBlock .radioButtons .Buttons {
+        width: auto;
+        margin: 0 0 0 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        /* Добавляем белую точку по центру */ }
+        #app .TerminalBlock .radioButtons .Buttons .radio input {
+          display: none;
+          /* Прячем исходный переключатель */ }
+        #app .TerminalBlock .radioButtons .Buttons .radio span {
+          position: relative;
+          /* Относительное позиционирование */
+          display: inline-block;
+          /* Строчно-блочный элемент */
+          width: 20px;
+          height: 20px;
+          /* Размеры */
+          background: white;
+          /* Серый цвет фона */
+          border-radius: 50%;
+          /* Круглый переключатель */
+          margin: -5px 0 0 5px;
+          border: solid 1px black; }
+        #app .TerminalBlock .radioButtons .Buttons .radio input:checked + span {
+          background: white;
+          /* Красный цвет фона */ }
+        #app .TerminalBlock .radioButtons .Buttons .radio input:checked + span::before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #9CB7EB;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box; }
+        #app .TerminalBlock .radioButtons .Buttons label {
+          margin: 0 0 0 20px;
+          display: flex;
+          flex-direction: row-reverse; }
+    #app .TerminalBlock .pag_1 {
+      display: flex;
+      width: 250px;
+      position: absolute;
+      right: 63px;
+      top: 175px; }
+      #app .TerminalBlock .pag_1 img {
+        width: 16px;
+        height: 12px; }
+      #app .TerminalBlock .pag_1 .page_numbers {
+        margin: -9px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        font-weight: 600; }
+      #app .TerminalBlock .pag_1 .active {
+        color: #9CB7EB;
+        border: 2px solid #9CB7EB; }
+      #app .TerminalBlock .pag_1 .L {
+        margin: 0 5px 0 0; }
+      #app .TerminalBlock .pag_1 .R {
+        margin: 0 0 0 5px; }
+    #app .TerminalBlock .pag_2 {
+      display: flex;
+      width: 250px;
+      position: absolute;
+      right: 63px;
+      top: 894px; }
+      #app .TerminalBlock .pag_2 img {
+        width: 16px;
+        height: 12px; }
+      #app .TerminalBlock .pag_2 .page_numbers {
+        margin: -9px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        font-weight: 600; }
+      #app .TerminalBlock .pag_2 .active {
+        color: #9CB7EB;
+        border: 2px solid #9CB7EB; }
+      #app .TerminalBlock .pag_2 .L {
+        margin: 0 5px 0 0; }
+      #app .TerminalBlock .pag_2 .R {
+        margin: 0 0 0 5px; }
+    #app .TerminalBlock .TerminalTable {
+      width: 1331px;
+      position: absolute;
+      top: 222px;
+      left: 55px;
+      text-align: center;
+      font: 18px/22px normal;
+      background-color: white;
+      border-collapse: collapse;
+      border-radius: 20px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #9CB7EB; }
+      #app .TerminalBlock .TerminalTable thead tr #border-R {
+        border-right: hidden; }
+      #app .TerminalBlock .TerminalTable thead tr th {
+        margin: 0;
+        padding: 0;
+        border: solid 1px #9CB7EB;
+        height: 83px; }
+      #app .TerminalBlock .TerminalTable tbody tr td {
+        padding: 15px 0;
+        border-top: solid 1px #9CB7EB;
+        justify-content: center;
+        align-items: center;
+        /* Добавляем белую точку по центру */ }
+        #app .TerminalBlock .TerminalTable tbody tr td .radio input {
+          display: none;
+          /* Прячем исходный переключатель */ }
+        #app .TerminalBlock .TerminalTable tbody tr td .radio span {
+          position: relative;
+          /* Относительное позиционирование */
+          display: inline-block;
+          /* Строчно-блочный элемент */
+          width: 20px;
+          height: 20px;
+          /* Размеры */
+          background: white;
+          /* Серый цвет фона */
+          border-radius: 50%;
+          /* Круглый переключатель */
+          margin: 0 15px 0 15px;
+          border: solid 1px black; }
+        #app .TerminalBlock .TerminalTable tbody tr td .radio input:checked + span {
+          background: white;
+          /* Красный цвет фона */ }
+        #app .TerminalBlock .TerminalTable tbody tr td .radio input:checked + span::before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #9CB7EB;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box; }
+        #app .TerminalBlock .TerminalTable tbody tr td label {
+          margin: 0 0 0 0;
+          display: flex;
+          justify-content: center; }
+  #app .OperatorsTableBlock {
+    width: 100%;
+    height: 947px;
+    background: rgba(156, 183, 235, 0.1);
+    position: relative; }
+    #app .OperatorsTableBlock .OperatorText {
+      position: absolute;
+      top: 40px;
+      left: 64px;
+      font-size: 36px;
+      line-height: 44px;
+      color: #9CB7EB; }
+    #app .OperatorsTableBlock .AddOperator {
+      width: 236px;
+      height: 50px;
+      position: absolute;
+      top: 105px;
+      left: 64px;
+      border-radius: 30px;
+      border: solid 1px black;
+      font: 18px/22px normal;
+      background-color: white;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      outline: none; }
+      #app .OperatorsTableBlock .AddOperator img {
+        margin: 0 5px 0 0; }
+    #app .OperatorsTableBlock .Operator_radioButtons {
+      width: auto;
+      height: auto;
+      display: flex;
+      position: absolute;
+      top: 176px;
+      left: 66px; }
+      #app .OperatorsTableBlock .Operator_radioButtons .textRadio {
+        width: auto;
+        font-size: 18px;
+        line-height: 22px; }
+      #app .OperatorsTableBlock .Operator_radioButtons .Buttons {
+        width: auto;
+        margin: 0 0 0 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        /* Добавляем белую точку по центру */ }
+        #app .OperatorsTableBlock .Operator_radioButtons .Buttons .radio input {
+          display: none;
+          /* Прячем исходный переключатель */ }
+        #app .OperatorsTableBlock .Operator_radioButtons .Buttons .radio span {
+          position: relative;
+          /* Относительное позиционирование */
+          display: inline-block;
+          /* Строчно-блочный элемент */
+          width: 20px;
+          height: 20px;
+          /* Размеры */
+          background: white;
+          /* Серый цвет фона */
+          border-radius: 50%;
+          /* Круглый переключатель */
+          margin: -5px 0 0 5px;
+          border: solid 1px black; }
+        #app .OperatorsTableBlock .Operator_radioButtons .Buttons .radio input:checked + span {
+          background: white;
+          /* Красный цвет фона */ }
+        #app .OperatorsTableBlock .Operator_radioButtons .Buttons .radio input:checked + span::before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #9CB7EB;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box; }
+        #app .OperatorsTableBlock .Operator_radioButtons .Buttons label {
+          margin: 0 0 0 20px;
+          display: flex;
+          flex-direction: row-reverse; }
+    #app .OperatorsTableBlock .Operator_pag_1 {
+      display: flex;
+      width: 250px;
+      position: absolute;
+      right: 63px;
+      top: 240px; }
+      #app .OperatorsTableBlock .Operator_pag_1 img {
+        width: 16px;
+        height: 12px; }
+      #app .OperatorsTableBlock .Operator_pag_1 .page_numbers {
+        margin: -9px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        font-weight: 600; }
+      #app .OperatorsTableBlock .Operator_pag_1 .active {
+        color: #9CB7EB;
+        border: 2px solid #9CB7EB; }
+      #app .OperatorsTableBlock .Operator_pag_1 .L {
+        margin: 0 5px 0 0; }
+      #app .OperatorsTableBlock .Operator_pag_1 .R {
+        margin: 0 0 0 5px; }
+    #app .OperatorsTableBlock .Operator_pag_2 {
+      display: flex;
+      width: 250px;
+      position: absolute;
+      right: 63px;
+      top: 894px; }
+      #app .OperatorsTableBlock .Operator_pag_2 img {
+        width: 16px;
+        height: 12px; }
+      #app .OperatorsTableBlock .Operator_pag_2 .page_numbers {
+        margin: -9px 5px 0px 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        font-weight: 600; }
+      #app .OperatorsTableBlock .Operator_pag_2 .active {
+        color: #9CB7EB;
+        border: 2px solid #9CB7EB; }
+      #app .OperatorsTableBlock .Operator_pag_2 .L {
+        margin: 0 5px 0 0; }
+      #app .OperatorsTableBlock .Operator_pag_2 .R {
+        margin: 0 0 0 5px; }
+    #app .OperatorsTableBlock .OperatorTable {
+      width: 1331px;
+      position: absolute;
+      top: 290px;
+      left: 55px;
+      text-align: center;
+      font: 18px/22px normal;
+      background-color: white;
+      border-collapse: collapse;
+      border-radius: 20px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #9CB7EB; }
+      #app .OperatorsTableBlock .OperatorTable thead tr #border-R {
+        border-right: hidden; }
+      #app .OperatorsTableBlock .OperatorTable thead tr th {
+        margin: 0;
+        padding: 0;
+        border: solid 1px #9CB7EB;
+        height: 83px; }
+      #app .OperatorsTableBlock .OperatorTable tbody tr td {
+        padding: 15px 0;
+        border-top: solid 1px #9CB7EB;
+        justify-content: center;
+        align-items: center; }
+        #app .OperatorsTableBlock .OperatorTable tbody tr td .status {
+          margin: auto;
+          padding: 0;
+          display: block;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: solid 1px black;
+          background-color: white; }
+          #app .OperatorsTableBlock .OperatorTable tbody tr td .status .Status_color {
+            display: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: solid 1px black;
+            background: #9CB7EB;
+            margin: 4px auto;
+            padding: 0; }
+  #app .OtchetBlock {
+    width: 100%;
+    height: 947px;
+    display: flex; }
+    #app .OtchetBlock .OT_leftBlock {
+      width: 75%;
+      height: 100%;
+      background: rgba(156, 183, 235, 0.1);
+      overflow: auto;
+      display: flex;
+      flex-direction: column; }
+      #app .OtchetBlock .OT_leftBlock .NewsProvBlock {
+        width: 100%;
+        height: auto;
+        background: rgba(156, 183, 235, 0.1);
+        position: relative; }
+        #app .OtchetBlock .OT_leftBlock .NewsProvBlock .infoBlockProv {
+          width: 100%;
+          height: 49px;
+          background: linear-gradient(0deg, #EBEBEB 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          text-align: left;
+          display: flex;
+          align-items: center;
+          padding-left: 38px; }
+        #app .OtchetBlock .OT_leftBlock .NewsProvBlock .NEWSItem .date {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #9CB7EB;
+          padding: 20px 0 0 42px; }
+        #app .OtchetBlock .OT_leftBlock .NewsProvBlock .NEWSItem .text {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #1B0E3A;
+          margin: 20px 30px 30px 30px; }
+      #app .OtchetBlock .OT_leftBlock .NewsAgentBlock {
+        width: 100%;
+        height: auto;
+        background: rgba(156, 183, 235, 0.1);
+        position: relative; }
+        #app .OtchetBlock .OT_leftBlock .NewsAgentBlock .infoBlockAgent {
+          width: 100%;
+          height: 49px;
+          background: linear-gradient(0deg, #EBEBEB 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          text-align: left;
+          display: flex;
+          align-items: center;
+          padding-left: 38px; }
+        #app .OtchetBlock .OT_leftBlock .NewsAgentBlock .NEWSItem .date {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #9CB7EB;
+          padding: 20px 0 0 42px; }
+        #app .OtchetBlock .OT_leftBlock .NewsAgentBlock .NEWSItem .text {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: #1B0E3A;
+          margin: 20px 30px 30px 30px; }
+    #app .OtchetBlock .OT_rightBlock {
+      width: 25%;
+      height: 100%;
+      background-color: white; }
+      #app .OtchetBlock .OT_rightBlock ul {
+        width: 100%;
+        height: auto;
+        list-style: none; }
+        #app .OtchetBlock .OT_rightBlock ul .text {
+          font: 700 18px/22px normal;
+          margin: 27px 0 27px 0; }
+        #app .OtchetBlock .OT_rightBlock ul li {
+          font: 14px/17.5px normal;
+          margin: 7px 0 7px 0; }
+  #app .TerminalInfo {
+    width: 100%;
+    height: 947px;
+    background: rgba(156, 183, 235, 0.1);
+    position: relative; }
+    #app .TerminalInfo .TerminalInfoText {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #9CB7EB;
+      position: absolute;
+      top: 40px;
+      left: 64px; }
+    #app .TerminalInfo .items {
+      width: auto;
+      height: 30px;
+      position: absolute;
+      top: 103px;
+      left: 54px;
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center; }
+      #app .TerminalInfo .items li {
+        font: 600 18px/22px normal;
+        margin: 0 9px 0 9px; }
+    #app .TerminalInfo .TerminalInfoText_2 {
+      position: absolute;
+      top: 164px;
+      left: 64px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #9CB7EB; }
+    #app .TerminalInfo .TerminalInfoTable {
+      position: absolute;
+      top: 207px;
+      left: 64px;
+      width: 816px;
+      background: white;
+      font: 600 18px/22px normal;
+      border-collapse: collapse;
+      border-radius: 20px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #9CB7EB; }
+      #app .TerminalInfo .TerminalInfoTable tbody tr .td_1 {
+        width: 198px;
+        border-right: solid 1px #9CB7EB;
+        border-bottom: solid 1px #9CB7EB;
+        text-align: center;
+        padding: 20px; }
+      #app .TerminalInfo .TerminalInfoTable tbody tr .td_2 {
+        border-bottom: solid 1px #9CB7EB;
+        padding: 20px 20px 20px 34px; }
+        #app .TerminalInfo .TerminalInfoTable tbody tr .td_2 span {
+          color: #9CB7EB; }
+        #app .TerminalInfo .TerminalInfoTable tbody tr .td_2 button {
+          width: 146px;
+          height: 39px;
+          margin: 0 0 0 30px;
+          background: #FFFFFF;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 20px;
+          outline: none; }
+  #app .OperatorInfo {
+    width: 100%;
+    height: 947px;
+    background: rgba(156, 183, 235, 0.1);
+    position: relative; }
+    #app .OperatorInfo .OperatorInfoText {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #9CB7EB;
+      position: absolute;
+      top: 40px;
+      left: 64px; }
+    #app .OperatorInfo .Operatoritems {
+      width: auto;
+      height: 30px;
+      position: absolute;
+      top: 103px;
+      left: 54px;
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center; }
+      #app .OperatorInfo .Operatoritems li {
+        font: 600 18px/22px normal;
+        margin: 0 9px 0 9px; }
+    #app .OperatorInfo .OperatorInfoText_2 {
+      position: absolute;
+      top: 164px;
+      left: 64px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #9CB7EB; }
+    #app .OperatorInfo .OperatorInfoTable {
+      position: absolute;
+      top: 207px;
+      left: 64px;
+      width: 671px;
+      background: white;
+      font: 600 18px/22px normal;
+      border-collapse: collapse;
+      border-radius: 20px;
+      border-style: hidden;
+      box-shadow: 0 0 0 1px #9CB7EB; }
+      #app .OperatorInfo .OperatorInfoTable tbody tr .td_1 {
+        width: 198px;
+        border-right: solid 1px #9CB7EB;
+        border-bottom: solid 1px #9CB7EB;
+        text-align: center;
+        padding: 20px; }
+      #app .OperatorInfo .OperatorInfoTable tbody tr .td_2 {
+        border-bottom: solid 1px #9CB7EB;
+        padding: 20px 20px 20px 34px; }
+        #app .OperatorInfo .OperatorInfoTable tbody tr .td_2 span {
+          color: #9CB7EB; }
+        #app .OperatorInfo .OperatorInfoTable tbody tr .td_2 button {
+          width: 146px;
+          height: 39px;
+          margin: 0 0 0 30px;
+          background: #FFFFFF;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 20px;
+          outline: none; }
+  #app .TerminalUpdate {
+    width: 100%;
+    height: 947px;
+    background: rgba(156, 183, 235, 0.1);
+    position: relative; }
+    #app .TerminalUpdate .TerminalUpdateText {
+      position: absolute;
+      top: 40px;
+      left: 64px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #9CB7EB; }
+    #app .TerminalUpdate .TerminalUpdateitems {
+      width: auto;
+      height: 30px;
+      position: absolute;
+      top: 103px;
+      left: 54px;
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      align-items: center; }
+      #app .TerminalUpdate .TerminalUpdateitems li {
+        font: 600 18px/22px normal;
+        margin: 0 9px 0 9px; }
+    #app .TerminalUpdate .TerminalUpdateText_2 {
+      position: absolute;
+      top: 164px;
+      left: 64px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #9CB7EB; }
+    #app .TerminalUpdate .TerminalUpdateInput_items {
+      position: absolute;
+      top: 227px;
+      left: 64px;
+      width: 133px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding-left: 0; }
+      #app .TerminalUpdate .TerminalUpdateInput_items li {
+        text-align: center;
+        margin: 18px 0 18px 0;
+        font: 600 18px/22px normal;
+        position: relative;
+        padding: 0; }
+        #app .TerminalUpdate .TerminalUpdateInput_items li span {
+          width: auto;
+          height: auto; }
+        #app .TerminalUpdate .TerminalUpdateInput_items li input {
+          position: absolute;
+          top: 0;
+          right: -236px;
+          padding: 0;
+          width: 235px;
+          height: 47px;
+          background: #FFFFFF;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box;
+          border-radius: 5px;
+          margin: -14px 0 0 15px; }
+      #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus {
+        text-align: center;
+        display: flex;
+        /* Добавляем белую точку по центру */ }
+        #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus .radio input {
+          display: none;
+          /* Прячем исходный переключатель */ }
+        #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus .radio span {
+          position: relative;
+          /* Относительное позиционирование */
+          display: inline-block;
+          /* Строчно-блочный элемент */
+          width: 20px;
+          height: 20px;
+          /* Размеры */
+          background: white;
+          /* Серый цвет фона */
+          border-radius: 50%;
+          /* Круглый переключатель */
+          margin: 0 15px 0 15px;
+          border: solid 1px black; }
+        #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus .radio input:checked + span {
+          background: white;
+          /* Красный цвет фона */ }
+        #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus .radio input:checked + span::before {
+          content: '';
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #9CB7EB;
+          border: 1px solid #1B0E3A;
+          box-sizing: border-box; }
+        #app .TerminalUpdate .TerminalUpdateInput_items .activeStatus label {
+          margin: 0 0 0 20px;
+          display: flex; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

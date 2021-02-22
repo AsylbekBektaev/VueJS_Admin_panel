@@ -1,0 +1,199 @@
+.TerminalBlock{
+width: 100%;
+  height:947px;
+  background: rgba(156, 183, 235, 0.1);
+  position: relative;
+  .TerminalText{
+    position: absolute;
+    top:40px;
+    left:64px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #9CB7EB;
+  }
+  .radioButtons{
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top:110px;
+    left: 66px;
+    .textRadio{
+      width:auto;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .Buttons{
+      width: auto;
+      margin:0 0 0 20px;
+      display:flex;
+      flex-direction:row-reverse;
+      .radio input { display: none; /* Прячем исходный переключатель */ }
+      .radio span {
+        position: relative; /* Относительное позиционирование */
+        display: inline-block; /* Строчно-блочный элемент */
+        width: 20px; height: 20px; /* Размеры */
+        background: white; /* Серый цвет фона */
+        border-radius: 50%; /* Круглый переключатель */
+        margin:-5px 0 0 5px;
+        border:solid 1px black;
+      }
+      .radio input:checked + span {
+        background: white; /* Красный цвет фона */
+      }
+      /* Добавляем белую точку по центру */
+      .radio input:checked + span::before {
+        content: '';
+        position: absolute;
+        left: 5px; top: 5px;
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        background: #9CB7EB;
+        border: 1px solid #1B0E3A;
+        box-sizing: border-box;
+      }
+      label{
+        margin:0 0 0 20px;
+        display:flex;
+        flex-direction:row-reverse;
+      }
+    }
+  }
+
+  .pag_1{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    right: 63px;
+    top:175px;
+    img{
+      width: 16px;
+      height: 12px;
+    }
+    .page_numbers{
+      margin: -9px 5px 0px 5px;
+      width:30px;
+      height:30px;
+      border: 1px solid black;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: white;
+      font-weight: 600;
+    }
+    .active{
+      color: #9CB7EB;
+      border: 2px solid #9CB7EB;
+    }
+    .L{
+      margin: 0 5px 0 0;
+    }
+    .R{
+      margin: 0 0 0 5px;
+    }
+  }
+  .pag_2{
+    display: flex;
+    width: 250px;
+    position: absolute;
+    right: 63px;
+    top:894px;
+    img{
+      width: 16px;
+      height: 12px;
+    }
+    .page_numbers{
+      margin: -9px 5px 0px 5px;
+      width:30px;
+      height:30px;
+      border: 1px solid black;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: white;
+      font-weight: 600;
+    }
+    .active{
+      color: #9CB7EB;
+      border: 2px solid #9CB7EB;
+    }
+    .L{
+      margin: 0 5px 0 0;
+    }
+    .R{
+      margin: 0 0 0 5px;
+    }
+  }
+  .TerminalTable{
+    width: 1331px;
+    position: absolute;
+    top: 222px;
+    left: 55px;
+    text-align: center;
+    //border: solid 1px #9CB7EB;
+    //border-radius: 20px;
+    font: 18px/22px normal;
+    background-color: white;
+
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #9CB7EB;
+    thead{
+      tr{
+        #border-R{
+          border-right: hidden;
+        }
+        th{
+          margin: 0;
+          padding: 0;
+          border:solid 1px #9CB7EB;
+          height: 83px;
+        }
+      }
+    }
+    tbody{
+      tr{
+        td{
+          padding:15px 0;
+          border-top: solid 1px #9CB7EB;
+          justify-content: center;
+          align-items: center;
+          .radio input { display: none; /* Прячем исходный переключатель */ }
+          .radio span {
+            position: relative; /* Относительное позиционирование */
+            display: inline-block; /* Строчно-блочный элемент */
+            width: 20px; height: 20px; /* Размеры */
+            background: white; /* Серый цвет фона */
+            border-radius: 50%; /* Круглый переключатель */
+            margin:0 15px 0 15px;
+            border:solid 1px black;
+          }
+          .radio input:checked + span {
+            background: white; /* Красный цвет фона */
+          }
+          /* Добавляем белую точку по центру */
+          .radio input:checked + span::before {
+            content: '';
+            position: absolute;
+            left: 5px; top: 5px;
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            background: #9CB7EB;
+            border: 1px solid #1B0E3A;
+            box-sizing: border-box;
+          }
+          label{
+            margin:0 0 0 0;
+            display:flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

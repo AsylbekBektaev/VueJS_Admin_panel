@@ -1,0 +1,584 @@
+.Search_two{
+  width: 100%;
+  height:945px;
+  display: flex;
+  .block_left_two{
+    width:27%;
+    background-color: rgba(156, 183, 235, 0.1);
+    .blockSearchSetting_two{
+      width: 90%;
+      height:883px;
+      margin:50px auto auto auto;
+      background-color:white;
+      border: 1px solid #9CB7EB;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      .SearchPanel_2{
+        width:122px;
+        height: 26px;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        border-top:solid 1px #9CB7EB;
+        border-left:solid 1px #9CB7EB;
+        border-right:solid 1px #9CB7EB;
+        background-color: white;
+        position: absolute;
+        top: -35px;
+        left: 16px;
+        font:600 14px/17px normal;
+        text-align: center;
+        padding-top: 8px;
+      }
+      .AddPanel_2{
+        width:102px;
+        height: 23px;
+        border: solid 1px #9CB7EB;
+        background-color: white;
+        position: absolute;
+        top: -30px;
+        left: 143px;
+        font:600 14px/17px normal;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 20px;
+        border-left: hidden;
+        &::before{
+          border-radius: 50%;
+          left: -22px;
+          top: -5px;
+          content: "";
+          display: inline-block;
+          width: 26px;
+          height: 31px;
+          border-right: solid 1px #9CB7EB;
+          border-top: solid 1px transparent;
+          border-bottom: solid 1px transparent;
+          position: absolute;
+        }
+        img{
+          width: 10px;
+          height: 10px;
+          margin:5px 5px 0 0 ;
+        }
+      }
+
+      label {
+        position: absolute;
+        left: 21px;
+        width: 237px;
+        height: 27px;
+        font: 18px/22px normal;
+      }
+
+      .Period_two{
+        top: 18px;
+        color: #9CB7EB;
+      }
+      .Period_text_two{
+        width:50%;
+        top: 235px;
+        font: 14px/17px normal;
+      }
+      .SearchS_two{
+        top: 368px;
+        color: #9CB7EB;
+      }
+      .Settings_two{
+        top: 210px;
+        color: #9CB7EB;
+      }
+      .Detaling_two{
+        top:610px;
+        color: #9CB7EB;
+      }
+
+      .flex_block_1_two{
+        display: flex;
+        position: relative;
+        top: 90px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+
+        }
+        .Period_day{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_2_two{
+        display: flex;
+        position: relative;
+        top: 132px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .Period_day_c{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_3_two{
+        display: flex;
+        position: relative;
+        top: 177px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .Period_day_po{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_two_Setting{
+        display: flex;
+        position: relative;
+        top: 265px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .Max_payment{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+
+      .checkBox_two_Setting{
+        display: flex;
+        position: relative;
+        top: 315px;
+        width:100%;
+        font: 14px/17px normal;
+        .check_page{
+          margin:7px 16px 0 37px;
+          display: none;
+          font: 14px/17px normal;
+        }
+        /* стили для метки */
+        label {
+          color: #000;
+          cursor: default;
+          font-weight: normal;
+          line-height: 30px;
+          padding: 10px 0;
+          vertical-align: middle;
+          font: 14px/17px normal;
+        }
+
+        /* формируем внешний вид чекбокса в псевдоэлементе before */
+        label:before {
+          content: "";
+          display: inline-block;
+          font: 20px/20px Arial;
+          margin-right: 15px;
+          position: relative;
+          text-align: center;
+          text-indent: 0;
+          width: 22px;
+          height: 22px;
+          background: #FFF;
+          border: 1px solid #9CB7EB;
+          border-image: initial;
+          vertical-align: middle;
+          color:#9CB7EB;
+          border-radius: 5px;
+        }
+
+        /* вариации внешнего вида в зав-ти от статуса checkbox */
+        /* checked */
+        input:checked + label:before {
+          content: "\2713";
+        }
+        /* disabled */
+        input:disabled + label:before {
+          background: #eee;
+          color: #aaa;
+        }
+        label{
+          left: 37px;
+        }
+      }
+
+      .flex_block_two_Search_1{
+        display: flex;
+        position: relative;
+        top: 420px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .chect{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_two_Search_2{
+        display: flex;
+        position: relative;
+        top: 457px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .provaider{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_two_Search_3{
+        display: flex;
+        position: relative;
+        top: 499px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .agent{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+      .flex_block_two_Search_4{
+        display: flex;
+        position: relative;
+        top: 540px;
+        width:100%;
+        font: 14px/17px normal;
+        span{
+          position: absolute;
+          right: 255px;
+        }
+        .terminal{
+          position: absolute;
+          right:10px;
+          width: 237px;
+          height:27px;
+          border: 1px solid #9CB7EB;
+          box-sizing: border-box;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+
+
+      .Search_checkBox_text{
+        position: absolute;
+        top: 600px;
+        right: 255px;
+        display: flex;
+        .item_Collum{
+          display: flex;
+          flex-direction: column;
+          margin:0;
+          .Search_checkBox_item_1{
+            display: flex;
+            position: relative;
+            top: 0;
+            width:100%;
+            font: 14px/17px normal;
+            .check_vse{
+              margin:7px 16px 0 37px;
+              display: none;
+              font: 14px/17px normal;
+            }
+            /* стили для метки */
+            label {
+              color: #000;
+              cursor: default;
+              font-weight: normal;
+              line-height: 30px;
+              padding: 7px 0;
+              vertical-align: middle;
+              font: 14px/17px normal;
+            }
+
+            /* формируем внешний вид чекбокса в псевдоэлементе before */
+            label:before {
+              content: "";
+              display: inline-block;
+              font: 20px/20px Arial;
+              margin-right: 15px;
+              position: relative;
+              text-align: center;
+              text-indent: 0;
+              width: 22px;
+              height: 22px;
+              background: #FFF;
+              border: 1px solid #9CB7EB;
+              border-image: initial;
+              vertical-align: middle;
+              color:#9CB7EB;
+              border-radius: 5px;
+            }
+
+            /* вариации внешнего вида в зав-ти от статуса checkbox */
+            /* checked */
+            input:checked + label:before {
+              content: "\2713";
+            }
+            /* disabled */
+            input:disabled + label:before {
+              background: #eee;
+              color: #aaa;
+            }
+            label{
+              left: 9px;
+            }
+          }
+
+          .Search_checkBox_item_3{
+            display: flex;
+            position: relative;
+            top: 80px;
+            width:100%;
+            font: 14px/17px normal;
+            .check_vObr{
+              margin:7px 16px 0 37px;
+              display: none;
+              font: 14px/17px normal;
+            }
+            /* стили для метки */
+            label {
+              color: #000;
+              cursor: default;
+              font-weight: normal;
+              line-height: 30px;
+              padding: 7px 0;
+              vertical-align: middle;
+              font: 14px/17px normal;
+            }
+
+            /* формируем внешний вид чекбокса в псевдоэлементе before */
+            label:before {
+              content: "";
+              display: inline-block;
+              font: 20px/20px Arial;
+              margin-right: 15px;
+              position: relative;
+              text-align: center;
+              text-indent: 0;
+              width: 22px;
+              height: 22px;
+              background: #FFF;
+              border: 1px solid #9CB7EB;
+              border-image: initial;
+              vertical-align: middle;
+              color:#9CB7EB;
+              border-radius: 5px;
+            }
+
+            /* вариации внешнего вида в зав-ти от статуса checkbox */
+            /* checked */
+            input:checked + label:before {
+              content: "\2713";
+            }
+            /* disabled */
+            input:disabled + label:before {
+              background: #eee;
+              color: #aaa;
+            }
+            label{
+              left: 9px;
+            }
+          }
+
+          .Search_checkBox_item_4{
+            display: flex;
+            position: relative;
+            top: 120px;
+            width:100%;
+            font: 14px/17px normal;
+            .check_Neus{
+              margin:7px 16px 0 37px;
+              display: none;
+              font: 14px/17px normal;
+            }
+            /* стили для метки */
+            label {
+              color: #000;
+              cursor: default;
+              font-weight: normal;
+              line-height: 30px;
+              padding: 7px 0;
+              vertical-align: middle;
+              font: 14px/17px normal;
+            }
+
+            /* формируем внешний вид чекбокса в псевдоэлементе before */
+            label:before {
+              content: "";
+              display: inline-block;
+              font: 20px/20px Arial;
+              margin-right: 15px;
+              position: relative;
+              text-align: center;
+              text-indent: 0;
+              width: 22px;
+              height: 22px;
+              background: #FFF;
+              border: 1px solid #9CB7EB;
+              border-image: initial;
+              vertical-align: middle;
+              color:#9CB7EB;
+              border-radius: 5px;
+            }
+
+            /* вариации внешнего вида в зав-ти от статуса checkbox */
+            /* checked */
+            input:checked + label:before {
+              content: "\2713";
+            }
+            /* disabled */
+            input:disabled + label:before {
+              background: #eee;
+              color: #aaa;
+            }
+            label{
+              left: 9px;
+            }
+          }
+
+
+          .Search_checkBox_item_2{
+            display: flex;
+            position: relative;
+            top: 40px;
+            width:100%;
+            font: 14px/17px normal;
+            .check_uspesh{
+              margin:7px 16px 0 37px;
+              display: none;
+              font: 14px/17px normal;
+            }
+            /* стили для метки */
+            label {
+              color: #000;
+              cursor: default;
+              font-weight: normal;
+              line-height: 30px;
+              padding: 7px 0;
+              vertical-align: middle;
+              font: 14px/17px normal;
+            }
+
+            /* формируем внешний вид чекбокса в псевдоэлементе before */
+            label:before {
+              content: "";
+              display: inline-block;
+              font: 20px/20px Arial;
+              margin-right: 15px;
+              position: relative;
+              text-align: center;
+              text-indent: 0;
+              width: 22px;
+              height: 22px;
+              background: #FFF;
+              border: 1px solid #9CB7EB;
+              border-image: initial;
+              vertical-align: middle;
+              color:#9CB7EB;
+              border-radius: 5px;
+            }
+
+            /* вариации внешнего вида в зав-ти от статуса checkbox */
+            /* checked */
+            input:checked + label:before {
+              content: "\2713";
+            }
+            /* disabled */
+            input:disabled + label:before {
+              background: #eee;
+              color: #aaa;
+            }
+            label{
+              left: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .block_right_two{
+    width:73%;
+    background-color: white;
+    table{
+      width:100%;
+      border-collapse: collapse;
+      font: 12px/20.7px normal;
+      th{
+        border: 1px solid #9CB7EB;
+        height: 80px;
+        white-space: pre-wrap;
+        padding: 4px;
+      }
+      tr{
+        td{
+          text-align: center;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}

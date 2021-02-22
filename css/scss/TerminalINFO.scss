@@ -1,0 +1,83 @@
+.TerminalInfo{
+  width:100%;
+  height:947px;
+  background: rgba(156, 183, 235, 0.1);
+  position: relative;
+.TerminalInfoText{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #9CB7EB;
+  position: absolute;
+  top:40px;
+  left:64px;
+}
+  .items{
+    width: auto;
+    height:30px;
+    position: absolute;
+    top:103px;
+    left:54px;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    li{
+      font:600 18px/22px normal;
+      margin: 0 9px 0 9px;
+    }
+  }
+  .TerminalInfoText_2{
+    position: absolute;
+    top:164px;
+    left:64px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #9CB7EB;
+  }
+  .TerminalInfoTable{
+    position: absolute;
+    top:207px;
+    left:64px;
+    width:816px;
+    background:white;
+    font:600 18px/22px normal;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #9CB7EB;
+    tbody{
+      tr{
+        .td_1{
+          width: 198px;
+          border-right: solid 1px #9CB7EB;
+          border-bottom: solid 1px #9CB7EB;
+          text-align: center;
+          padding: 20px;
+        }
+        .td_2{
+          border-bottom: solid 1px #9CB7EB;
+          padding: 20px 20px 20px 34px;
+          span{
+            color: #9CB7EB;
+          }
+          button{
+            width:146px;
+            height:39px;
+            margin: 0 0 0 30px;
+            background: #FFFFFF;
+            border: 1px solid #1B0E3A;
+            box-sizing: border-box;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

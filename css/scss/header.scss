@@ -1,0 +1,88 @@
+
+header{
+  background-color: white;
+  margin:0;
+  padding:0;
+  height:80px;
+  display: flex;
+  border: 1px solid #9CB7EB;
+  box-sizing: border-box;
+  ul{
+    width:80%;
+    height:80px;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    float: left;
+    position: relative;
+    .logo{
+        width: 53px;
+        height: 43px;
+        float: left;
+
+      margin: 20px 70px 0 0;
+    }
+    #Otchet{
+      .items{
+        display: none;
+        list-style: none;
+        position: absolute;
+        top: 60px;
+        left: 545px;
+        width:196px;
+        height:auto;
+        background-color: white;
+        border: 1px solid #9CB7EB;
+        border-radius: 10px;
+        z-index: 1000;
+        flex-direction: column;
+        padding-left: 26px;
+        li{
+          margin:15px 0 15px 0;
+        }
+      }
+      &:hover{
+       > .items{
+            display: block;
+        }
+      }
+    }
+    li{
+      margin:35px 15px 0 15px;
+      font: 14px/17px normal;
+    }
+
+  }
+
+  .Person_and_Agent{
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font: 14px/17px normal;
+    .person{
+      margin:22px 0 0 0;
+      position: absolute;
+      right:45%;
+      top: 0;
+      .person_text{
+        color:#9CB7EB;
+      }
+    }
+    .agent{
+      position: absolute;
+      right:45%;
+      top: 47%;
+      margin:9px 0 0 0;
+      .agent_text{
+        color:#9CB7EB;
+      }
+    }
+    .exit{
+      position: absolute;
+      right:25%;
+      top: 36%;
+    }
+  }
+}

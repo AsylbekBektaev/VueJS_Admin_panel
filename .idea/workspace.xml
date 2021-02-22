@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="312f6597-9624-4408-adac-44aee7ebaa23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/scss/OperatorINFO.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/scss/TerminalINFO.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/scss/TerminalUpdate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scss/OperatorsTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/scss/OperatorsTable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scss/Search_one.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/scss/Search_one.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scss/Search_two.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/scss/Search_two.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scss/Terminal_Block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/scss/Terminal_Block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/COM.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/HOME WORK SITE.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/HOME_WORK_2.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/LangIndigo24.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/MENUheaderAndEmailSuccess.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/applications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/bitnami.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/de/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/de/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/de/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/de/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/de/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/access-phpmyadmin-remotely.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/access-phpmyadmin-remotely.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/access-phpmyadmin-remotely.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/activate-use-xdebug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/activate-use-xdebug.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/activate-use-xdebug.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/auto-start-xampp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/auto-start-xampp.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/auto-start-xampp.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/backup-restore-mysql.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/backup-restore-mysql.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/backup-restore-mysql.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/change-mysql-temp-dir.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/change-mysql-temp-dir.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/change-mysql-temp-dir.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-use-tomcat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-use-tomcat.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-use-tomcat.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-vhosts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-vhosts.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-vhosts.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-wildcard-subdomains.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-wildcard-subdomains.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/configure-wildcard-subdomains.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf1.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/create-framework-project-zf2.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/deploy-git-app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/deploy-git-app.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/deploy-git-app.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/access-phpmyadmin-remotely/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/activate-use-xdebug/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/activate-use-xdebug/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/activate-use-xdebug/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/auto-start-xampp/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/backup-restore-mysql/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-use-tomcat/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-vhosts/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-vhosts/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-vhosts/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-vhosts/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-wildcard-subdomains/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-wildcard-subdomains/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-wildcard-subdomains/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/configure-wildcard-subdomains/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf1/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf1/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf2/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf2/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf2/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf2/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/create-framework-project-zf2/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/deploy-git-app/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/install-wordpress/image38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/reset-mysql-password/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/reset-mysql-password/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/reset-mysql-password/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/send-mail/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/send-mail/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/send-mail/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/transfer-files-ftp/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/troubleshoot-apache/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/use-different-php-version/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/use-php-fcgi/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/use-sqlite/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/use-sqlite/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/images/use-sqlite/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/increase-php-file-upload-limit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/increase-php-file-upload-limit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/increase-php-file-upload-limit.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/install-wordpress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/install-wordpress.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/install-wordpress.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/reset-mysql-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/reset-mysql-password.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/reset-mysql-password.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/send-mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/send-mail.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/send-mail.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/transfer-files-ftp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/transfer-files-ftp.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/transfer-files-ftp.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/troubleshoot-apache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/troubleshoot-apache.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/troubleshoot-apache.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-different-php-version.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-different-php-version.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-different-php-version.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-php-fcgi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-php-fcgi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-php-fcgi.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-sqlite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-sqlite.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/docs/use-sqlite.pdfmarks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/es/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/es/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/es/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/es/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/es/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/fr/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/fr/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/fr/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/fr/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/fr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/hu/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/hu/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/hu/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/hu/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/hu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons-video-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/beetailer-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/elegantthemes-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/rockettheme-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/sugaroutfitters-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/templatemonster-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/themeforest-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/woothemes-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/addons/wpmu-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/apple-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/bitnami-xampp/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/download-xampp-vm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/heartbleed-affected-osx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/heartbleed-affected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/heartbleed-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/phpinfo-section-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/phpinfo-section-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-cakephp-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-general.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-manager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-php-finder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-php-output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-tray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/blog/xampp-vm-volumes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/fastly-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/fastly-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/es.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/hu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/jp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/pt_br.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/ro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/ur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/zh_cn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/flags/zh_tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/linux-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/middleman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/pdf-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-linux-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-download-installer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-launch-credentials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-run-installer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-stack-manager-general.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-stack-manager-network.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-stack-manager-services.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-stack-manager-volumes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-stack-manager.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-macosx-wordpress.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/screenshots/xampp-windows-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/social-icons-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/social-icons-large@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/social-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/social-icons@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/sourceforge-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/sourceforge-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/stack-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/stack-icons@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/stamps/stamp-173x38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/stamps/stamp-80x15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/stamps/stamp-88x31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/team/beltran-rueda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/team/daniel-lopez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/team/kai-seidler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/team/kay-vogelgesang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/team/paul-hinz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/twitter-bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/windows-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/xampp-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/xampp-cloud@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/xampp-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/images/xampp-newsletter-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/it/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/it/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/it/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/it/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/it/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/javascripts/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/javascripts/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/jp/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/jp/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/jp/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/jp/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/jp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/phpinfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pl/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pl/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pl/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pl/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pt_br/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pt_br/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pt_br/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pt_br/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/pt_br/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ro/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ro/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ro/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ro/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ro/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ru/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ru/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ru/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ru/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ru/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/stylesheets/all-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/stylesheets/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/stylesheets/asciidoctor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/stylesheets/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/tr/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/tr/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/tr/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/tr/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/tr/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ur/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ur/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ur/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ur/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/ur/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_cn/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_cn/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_cn/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_cn/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_cn/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_tw/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_tw/howto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_tw/howto_platform_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_tw/howto_shared_links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/dashboard/zh_tw/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/indigo24Com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/mobileSite.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/xampp/.modell" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/xampp/.modell-usb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOCSSS/xampp/.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oY6XulvByCtVZYmQ25nkLEC4f9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312f6597-9624-4408-adac-44aee7ebaa23" name="Default Changelist" comment="" />
+      <created>1613451219470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613451219470</updated>
+      <workItem from="1613451220514" duration="24752000" />
+      <workItem from="1613542102364" duration="18178000" />
+      <workItem from="1613628720813" duration="16414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

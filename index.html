@@ -1,0 +1,771 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Admin</title>
+</head>
+<body>
+<section id="app">
+    <!--HEADER-->
+    <header>
+        <ul>
+            <img class="logo" src="img/Logo.png">
+            <li class="item" @click="ClickHeader" id="Operators">Операторы</li>
+            <li class="item" @click="ClickHeader" id="Terminals">Терминалы</li>
+            <li class="item" @click="ClickHeader" id="Collection">Инкассация</li>
+            <li class="item" @click="ClickHeader" id="Uprav">Управление</li>
+            <li class="item" @click="ClickHeader" id="Otchet">
+                Отчеты
+                <ul class="items">
+                    <li>агенты</li>
+                    <li>ошибки</li>
+                    <li>custom 1.0</li>
+                    <li>персоны</li>
+                    <li>шаблоны комиссии</li>
+                    <li>метки</li>
+                    <li>терминалы</li>
+                    <li>профили комиссий</li>
+                </ul>
+            </li>
+            <li class="item" @click="ClickHeader" id="Spravochnik">Справочник</li>
+        </ul>
+        <div class="Person_and_Agent">
+            <div class="person">
+                Person: <label class="person_text">person</label>
+            </div>
+            <div class="agent">
+                Agent: <label class="agent_text">agent</label>
+            </div>
+            <img class="exit" src="img/Exit.png">
+        </div>
+    </header>
+
+
+    <!--    Search_1-->
+    <div class="Search_one" v-if="OperatorsBlock">
+        <div class="block_left">
+            <hello></hello>
+            <div class="blockSearchSetting" id="blockSearchSetting">
+                <div class="SearchPanel">Поиск платежа</div>
+                <div class="AddPanel"><img src="img/plus.png">новый</div>
+                <label class="Period">Период</label>
+                <div class="flex_block_1">
+                    <span>диапазон</span>
+                    <select class="Period_day">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+
+                <div class="flex_block_2">
+                    <span>с</span>
+                    <select class="Period_day_c">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+
+                <div class="flex_block_3">
+                    <span>по</span>
+                    <select class="Period_day_po">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+                <label class="Period_text">в фильтре отчета доступны данные с шагом 1 час</label>
+                <label class="Search">Искать</label>
+
+                <div class="flex_block_4">
+                    <span>агент</span>
+                    <input class="Search_agent"/>
+                </div>
+                <div class="flex_block_5">
+                    <span>метка агента</span>
+                    <input class="Search_metka_agent"/>
+                </div>
+                <div class="checkBox_1">
+                    <input id="check_agent" class="check_agent" type="checkbox"/>
+                    <label for="check_agent">учитывать агентов</label>
+                </div>
+
+                <label class="Settings">Настройкий</label>
+
+                <div class="flex_block_6">
+                    <span>тип счета</span>
+                    <input class="Type_chect"/>
+                </div>
+                <div class="flex_block_7">
+                    <span>номер счета</span>
+                    <input class="Number_chect"/>
+                </div>
+
+                <label class="Detaling">Детализация</label>
+                <div class="checkBox_2">
+                    <input id="check_chet" class="check_chet" type="checkbox"/>
+                    <label for="check_chet">по счету</label>
+                </div>
+                <div class="checkBox_3">
+                    <input id="check_chet_2" class="check_chet_2" type="checkbox"/>
+                    <label for="check_chet_2">по корреспондирующему счету</label>
+                </div>
+            </div>
+        </div>
+        <div class="block_right">
+            <table>
+                <tr>
+                    <th>Дата <br> Время</th>
+                    <th>Транзакции</th>
+                    <th>Квитанция<br>Дата</th>
+                    <th>Провайдер</th>
+                    <th>Номер</th>
+                    <th>Оплачено<br>Зачислено</th>
+                    <th>Статус<br>Результат</th>
+                    <th>Агент<br>Персона<br>Терминал</th>
+                    <th>Комменттарий</th>
+                </tr>
+                <tr>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Search_2-->
+    <div class="Search_two" v-if="OperatorsBlock">
+        <div class="block_left_two">
+            <div class="blockSearchSetting_two">
+                <div class="SearchPanel_2">Поиск платежа</div>
+                <div class="AddPanel_2"><img src="img/plus.png">новый</div>
+                <label class="Period_two">Период</label>
+                <div class="flex_block_1_two">
+                    <span>диапазон</span>
+                    <select class="Period_day">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+
+                <div class="flex_block_2_two">
+                    <span>с</span>
+                    <select class="Period_day_c">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+
+                <div class="flex_block_3_two">
+                    <span>по</span>
+                    <select class="Period_day_po">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+
+                <label class="Settings_two">Настройкий</label>
+
+                <div class="flex_block_two_Setting">
+                    <span>макс.платеж</span>
+                    <select class="Max_payment">
+                        <option value="day1">day1</option>
+                        <option value="day2">day2</option>
+                    </select>
+                </div>
+                <div class="checkBox_two_Setting">
+                    <input id="check_page" class="check_page" type="checkbox"/>
+                    <label for="check_page">вывод по страницам</label>
+                </div>
+
+                <label class="SearchS_two">Искать</label>
+
+                <div class="flex_block_two_Search_1">
+                    <span>счет</span>
+                    <input class="chect"/>
+                </div>
+                <div class="flex_block_two_Search_2">
+                    <span>провайдер</span>
+                    <input class="provaider"/>
+                </div>
+                <div class="flex_block_two_Search_3">
+                    <span>агент</span>
+                    <input class="agent"/>
+                </div>
+                <div class="flex_block_two_Search_4">
+                    <span>терминал</span>
+                    <input class="terminal"/>
+                </div>
+
+                <div class="Search_checkBox_text">
+                    <span>показывать <br> платежи</span>
+                    <div class="item_Collum">
+                        <div class="Search_checkBox_item_1">
+                            <input id="check_vse" class="check_vse" type="checkbox"/>
+                            <label for="check_vse">все</label>
+                        </div>
+                        <div class="Search_checkBox_item_2">
+                            <input id="check_uspesh" class="check_uspesh" type="checkbox"/>
+                            <label for="check_uspesh">успешные</label>
+                        </div>
+                        <div class="Search_checkBox_item_3">
+                            <input id="check_vObr" class="check_vObr" type="checkbox"/>
+                            <label for="check_vObr">в обработке</label>
+                        </div>
+                        <div class="Search_checkBox_item_4">
+                            <input id="check_Neus" class="check_Neus" type="checkbox"/>
+                            <label for="check_Neus">не успешные</label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="block_right_two">
+            <table>
+                <tr>
+                    <th>Дата <br> Время</th>
+                    <th>Транзакции</th>
+                    <th>Квитанция<br>Дата</th>
+                    <th>Провайдер</th>
+                    <th>Номер</th>
+                    <th>Оплачено<br>Зачислено</th>
+                    <th>Статус<br>Результат</th>
+                    <th>Агент<br>Персона<br>Терминал</th>
+                    <th>Комменттарий</th>
+                </tr>
+                <tr>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                    <td>Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <!--Terminals-->
+        <div class="TerminalBlock" v-if="TerminalsBlock">
+            <div class="TerminalText">
+                Терминалы
+            </div>
+            <div class="radioButtons">
+                <div class="textRadio">
+                    Количество записей:
+                </div>
+                <div class="Buttons">
+                    <label class="radio"><input type="radio" name="page" value="160"><span></span>160</label>
+                    <label class="radio"><input type="radio" name="page" value="80"><span></span>80</label>
+                    <label class="radio"><input type="radio" name="page" value="40"><span></span>40</label>
+                    <label class="radio"><input type="radio" name="page" value="20"><span></span>20</label>
+                    <label class="radio"><input type="radio" name="page" value="10" checked><span></span>10</label>
+                </div>
+            </div>
+            <span class="pag_1">
+                <img class="L" src="img/leftPage.png">
+                <div class="page_numbers">1</div>
+                <div class="page_numbers active">2</div>
+                <div class="page_numbers">3</div>
+                <div class="page_numbers">4</div>
+                <div class="page_numbers">5</div>
+                <img class="R" src="img/rightPage.png">
+            </span>
+
+            <table  class="TerminalTable">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Оператор ID</th>
+                    <th>Оператор</th>
+                    <th>Логин</th>
+                    <th>Страна</th>
+                    <th>Город</th>
+                    <th>Адрес</th>
+                    <th>Активен</th>
+                    <th id="border-R">Статус</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>#</td>
+                    <td>Оператор ID</td>
+                    <td>Оператор</td>
+                    <td>Логин</td>
+                    <td>Страна</td>
+                    <td>Город</td>
+                    <td>Адрес</td>
+                    <td>Активен</td>
+                    <td>
+                        <label class="radio">
+                            <input type="radio"   checked>
+                            <span></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#</td>
+                    <td>Оператор ID</td>
+                    <td>Оператор</td>
+                    <td>Логин</td>
+                    <td>Страна</td>
+                    <td>Город</td>
+                    <td>Адрес</td>
+                    <td>Активен</td>
+                    <td>
+                        <label class="radio">
+                            <input type="radio"  >
+                            <span></span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#</td>
+                    <td>Оператор ID</td>
+                    <td>Оператор</td>
+                    <td>Логин</td>
+                    <td>Страна</td>
+                    <td>Город</td>
+                    <td>Адрес</td>
+                    <td>Активен</td>
+                    <td>
+                        <label class="radio">
+                            <input type="radio"  >
+                            <span></span>
+                        </label>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table>
+            </table>
+            <span class="pag_2">
+                <img class="L" src="img/leftPage.png">
+                <div class="page_numbers">1</div>
+                <div class="page_numbers active">2</div>
+                <div class="page_numbers">3</div>
+                <div class="page_numbers">4</div>
+                <div class="page_numbers">5</div>
+                <img class="R" src="img/rightPage.png">
+            </span>
+        </div>
+
+
+    <!--    <div class="OperatorsTableBlock" v-if="TerminalsBlock">-->
+    <!--        <div class="OperatorText">-->
+    <!--            Операторы - <span id="num">649327299</span>-->
+    <!--        </div>-->
+    <!--        <button class="AddOperator"><img src="img/plus.png"> Добавить оператора</button>-->
+    <!--        <div class="Operator_radioButtons">-->
+    <!--            <div class="textRadio">-->
+    <!--                Количество записей:-->
+    <!--            </div>-->
+    <!--            <div class="Buttons">-->
+    <!--                <label class="radio"><input type="radio" name="page" value="160"><span></span>160</label>-->
+    <!--                <label class="radio"><input type="radio" name="page" value="80"><span></span>80</label>-->
+    <!--                <label class="radio"><input type="radio" name="page" value="40"><span></span>40</label>-->
+    <!--                <label class="radio"><input type="radio" name="page" value="20"><span></span>20</label>-->
+    <!--                <label class="radio"><input type="radio" name="page" value="10" checked><span></span>10</label>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <span class="Operator_pag_1">-->
+    <!--            <img class="L" src="img/leftPage.png">-->
+    <!--            <div class="page_numbers">1</div>-->
+    <!--            <div class="page_numbers active">2</div>-->
+    <!--            <div class="page_numbers">3</div>-->
+    <!--            <div class="page_numbers">4</div>-->
+    <!--            <div class="page_numbers">5</div>-->
+    <!--            <img class="R" src="img/rightPage.png">-->
+    <!--        </span>-->
+
+    <!--        <table  class="OperatorTable">-->
+    <!--            <thead>-->
+    <!--            <tr>-->
+    <!--                <th>#</th>-->
+    <!--                <th>Логин</th>-->
+    <!--                <th>ФИО</th>-->
+    <!--                <th>Баланс</th>-->
+    <!--                <th>E-mail</th>-->
+    <!--                <th>Телефон</th>-->
+    <!--                <th id="border-R">Активный</th>-->
+    <!--            </tr>-->
+    <!--            </thead>-->
+    <!--            <tbody>-->
+    <!--            <tr>-->
+    <!--                <td>#</td>-->
+    <!--                <td>Логин</td>-->
+    <!--                <td>ФИО</td>-->
+    <!--                <td>Баланс</td>-->
+    <!--                <td>E-mail</td>-->
+    <!--                <td>Телефон</td>-->
+    <!--                <td>Активный</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td>#</td>-->
+    <!--                <td>Логин</td>-->
+    <!--                <td>ФИО</td>-->
+    <!--                <td>Баланс</td>-->
+    <!--                <td>E-mail</td>-->
+    <!--                <td>Телефон</td>-->
+    <!--                <td>Активный</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td>#</td>-->
+    <!--                <td>Логин</td>-->
+    <!--                <td>ФИО</td>-->
+    <!--                <td>Баланс</td>-->
+    <!--                <td>E-mail</td>-->
+    <!--                <td>Телефон</td>-->
+    <!--                <td>Активный</td>-->
+    <!--            </tr>-->
+    <!--            </tbody>-->
+    <!--        </table>-->
+    <!--        <table>-->
+    <!--        </table>-->
+    <!--        <span class="Operator_pag_2">-->
+    <!--            <img class="L" src="img/leftPage.png">-->
+    <!--            <div class="page_numbers">1</div>-->
+    <!--            <div class="page_numbers active">2</div>-->
+    <!--            <div class="page_numbers">3</div>-->
+    <!--            <div class="page_numbers">4</div>-->
+    <!--            <div class="page_numbers">5</div>-->
+    <!--            <img class="R" src="img/rightPage.png">-->
+    <!--        </span>-->
+    <!--    </div>-->
+
+
+    <!--Collection-->
+    <div v-if="CollectionBlock">
+        Collection
+    </div>
+
+    <!--UpravBlock-->
+    <div v-if="UpravBlock">
+        UPRAV
+    </div>
+
+    <!--OtchetBlock-->
+    <div class="OtchetBlock" v-if="OtchetBlock">
+        <div class="OT_leftBlock">
+            <div class="NewsProvBlock">
+                <div class="infoBlockProv">
+                    Новости Провайдеров
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        Стало известно,
+                        сколько заработал казахстанский боксер
+                        Геннадий Головкин в поединке против обязательного
+                        претендента Камила Шереметы из Польшы, передает Tengrinews.kz.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        Стало известно,
+                        сколько заработал казахстанский боксер
+                        Геннадий Головкин в поединке против обязательного
+                        претендента Камила Шереметы из Польшы, передает Tengrinews.kz.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        Стало известно,
+                        сколько заработал казахстанский боксер
+                        Геннадий Головкин в поединке против обязательного
+                        претендента Камила Шереметы из Польшы, передает Tengrinews.kz.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        Стало известно,
+                        сколько заработал казахстанский боксер
+                        Геннадий Головкин в поединке против обязательного
+                        претендента Камила Шереметы из Польшы, передает Tengrinews.kz.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        Стало известно,
+                        сколько заработал казахстанский боксер
+                        Геннадий Головкин в поединке против обязательного
+                        претендента Камила Шереметы из Польшы, передает Tengrinews.kz.
+                    </p>
+                </div>
+
+            </div>
+            <div class="NewsAgentBlock">
+                <div class="infoBlockAgent">
+                    Новости для Агентов
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        В рамках международного сотрудничества благотворительный фонд "Халык" и Китайская национальная
+                        нефтегазовая корпорация (CNPC) выделяют 4 миллиарда тенге на борьбу с COVID-19. Попечительский
+                        совет фонда принял решение направить данные средства на приобретение медицинского оборудования
+                        и изделий медицинского назначения в Актюбинскую, Кызылординскую,
+                        Мангистаускую области, а также в города Нур-Султан и Алматы.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        В рамках международного сотрудничества благотворительный фонд "Халык" и Китайская национальная
+                        нефтегазовая корпорация (CNPC) выделяют 4 миллиарда тенге на борьбу с COVID-19. Попечительский
+                        совет фонда принял решение направить данные средства на приобретение медицинского оборудования
+                        и изделий медицинского назначения в Актюбинскую, Кызылординскую,
+                        Мангистаускую области, а также в города Нур-Султан и Алматы.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        В рамках международного сотрудничества благотворительный фонд "Халык" и Китайская национальная
+                        нефтегазовая корпорация (CNPC) выделяют 4 миллиарда тенге на борьбу с COVID-19. Попечительский
+                        совет фонда принял решение направить данные средства на приобретение медицинского оборудования
+                        и изделий медицинского назначения в Актюбинскую, Кызылординскую,
+                        Мангистаускую области, а также в города Нур-Султан и Алматы.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        В рамках международного сотрудничества благотворительный фонд "Халык" и Китайская национальная
+                        нефтегазовая корпорация (CNPC) выделяют 4 миллиарда тенге на борьбу с COVID-19. Попечительский
+                        совет фонда принял решение направить данные средства на приобретение медицинского оборудования
+                        и изделий медицинского назначения в Актюбинскую, Кызылординскую,
+                        Мангистаускую области, а также в города Нур-Султан и Алматы.
+                    </p>
+                </div>
+                <div class="NEWSItem">
+                    <div class="date">01.01.2021</div>
+                    <p class="text">
+                        В рамках международного сотрудничества благотворительный фонд "Халык" и Китайская национальная
+                        нефтегазовая корпорация (CNPC) выделяют 4 миллиарда тенге на борьбу с COVID-19. Попечительский
+                        совет фонда принял решение направить данные средства на приобретение медицинского оборудования
+                        и изделий медицинского назначения в Актюбинскую, Кызылординскую,
+                        Мангистаускую области, а также в города Нур-Султан и Алматы.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="OT_rightBlock">
+            <ul>
+                <li class="text">быстрый запуск</li>
+                <li>поиск платежей</li>
+                <li>мониторинг терминалов</li>
+                <li>рапределение средств</li>
+                <li class="text">справочная информация</li>
+                <li>FAQ</li>
+                <li>руководство по сайту</li>
+                <li>роли права и персон</li>
+                <li>описание типов счетов</li>
+                <li>инструмент по работе с коммерческими кредитами</li>
+                <li>реквизиты операторов системы</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--    <div class="TerminalInfo"  v-if="TerminalsBlock">-->
+    <!--        <div class="TerminalInfoText">-->
+    <!--            Терминал - 113245888-->
+    <!--        </div>-->
+    <!--        <ul class="items">-->
+    <!--            <li>Информация</li>-->
+    <!--            <li>Редактировать</li>-->
+    <!--            <li>История баланса</li>-->
+    <!--            <li>Истроия баланса (Windows)</li>-->
+    <!--            <li>Инкассаторы</li>-->
+    <!--        </ul>-->
+    <!--        <div class="TerminalInfoText_2">-->
+    <!--            Информация-->
+    <!--        </div>-->
+
+    <!--        <table class="TerminalInfoTable">-->
+    <!--            <tbody>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Логин</td>-->
+    <!--                <td class="td_2">113245888</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Страна</td>-->
+    <!--                <td class="td_2">Казахстан</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Город</td>-->
+    <!--                <td class="td_2">Алматы</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Адрес</td>-->
+    <!--                <td class="td_2">Almaty Mamyr 4 102/10</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Активен</td>-->
+    <!--                <td class="td_2">Да</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Оператор</td>-->
+    <!--                <td class="td_2"> <span id="">943158987</span> , TOO “INDIGO24”</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Пароль</td>-->
+    <!--                <td class="td_2">11223344</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">ККМ Номер</td>-->
+    <!--                <td class="td_2">Пусто</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Пинкод</td>-->
+    <!--                <td class="td_2">3681 <button class="gener">Генерировать</button></td>-->
+    <!--            </tr>-->
+
+    <!--            </tbody>-->
+    <!--        </table>-->
+    <!--    </div>-->
+
+
+    <!--    <div class="OperatorInfo"  v-if="TerminalsBlock">-->
+    <!--        <div class="OperatorInfoText">-->
+    <!--            Оператор - 113245888-->
+    <!--        </div>-->
+    <!--        <ul class="Operatoritems">-->
+    <!--            <li>Информация</li>-->
+    <!--            <li>Редактировать</li>-->
+    <!--            <li>История баланса</li>-->
+    <!--            <li>Терминалы</li>-->
+    <!--        </ul>-->
+    <!--        <div class="OperatorInfoText_2">-->
+    <!--            Информация-->
+    <!--        </div>-->
+
+    <!--        <table class="OperatorInfoTable">-->
+    <!--            <tbody>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Логин</td>-->
+    <!--                <td class="td_2">113245888</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">e-mail</td>-->
+    <!--                <td class="td_2">test@indigo24.com</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">ФИО</td>-->
+    <!--                <td class="td_2">test</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">ИИН/БИН</td>-->
+    <!--                <td class="td_2">000000000000</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Телефон</td>-->
+    <!--                <td class="td_2">+77075435433</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Баланс</td>-->
+    <!--                <td class="td_2">1,650,920.00</td>-->
+    <!--            </tr>-->
+    <!--            <tr>-->
+    <!--                <td class="td_1">Активный</td>-->
+    <!--                <td class="td_2">Да</td>-->
+    <!--            </tr>-->
+    <!--            </tbody>-->
+    <!--        </table>-->
+    <!--    </div>-->
+
+
+<!--    <div class="TerminalUpdate" v-if="TerminalsBlock">-->
+<!--        <div class="TerminalUpdateText">-->
+<!--            Терминал - 113245888-->
+<!--        </div>-->
+<!--        <ul class="TerminalUpdateitems">-->
+<!--            <li>Информация</li>-->
+<!--            <li>Редактировать</li>-->
+<!--            <li>История баланса</li>-->
+<!--            <li>Терминалы</li>-->
+<!--        </ul>-->
+<!--        <div class="TerminalUpdateText_2">-->
+<!--            Редактирование-->
+<!--        </div>-->
+<!--        <ul class="TerminalUpdateInput_items">-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                    Логин-->
+<!--                </span>-->
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                     e-mail-->
+<!--                </span>-->
+
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                    ФИО-->
+<!--                </span>-->
+
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                     ИИН/БИН-->
+<!--                </span>-->
+
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                    Телефон-->
+<!--                </span>-->
+
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <span>-->
+<!--                     Пароль-->
+<!--                </span>-->
+
+<!--                <input type="text" value="testTExt">-->
+<!--            </li>-->
+<!--            <li class="activeStatus">-->
+<!--                    <label class="radio">-->
+<!--                        <input type="radio">-->
+<!--                        <span></span>-->
+<!--                        <div>Активный</div>-->
+<!--                    </label>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+    <!--SpravochnikBlock-->
+    <div v-if="SpravochnikBlock">
+        Sprav
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>

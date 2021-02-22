@@ -1,0 +1,17 @@
+#app{
+  max-width: 1440px;
+  margin: 0 auto;
+  @import "scss/header";
+  @import "scss/Search_one";
+  @import "scss/Search_two";
+  @import "scss/Terminal_Block";
+  @import "scss/OperatorsTable";
+  @import "scss/Otchet";
+  @import "scss/TerminalINFO";
+  @import "scss/OperatorINFO";
+  @import "scss/TerminalUpdate";
+}
+body{
+  margin: 0;
+  padding: 0;
+}
